@@ -1,0 +1,1 @@
+This repository contains hands-on work, covering core DBT concepts including models, seeds, macros, snapshots, tests, and CI/CD workflows. It demonstrates practical data transformation and analytics engineering best practices using DBT Core
