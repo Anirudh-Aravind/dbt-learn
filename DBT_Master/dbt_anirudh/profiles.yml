@@ -1,0 +1,23 @@
+dbt_anirudh:
+  outputs:
+    dev:
+      catalog: dbt_learning
+      host: dbc-da390f9a-8fc8.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/cd9c3d27e6f79760
+      schema: default
+      threads: 1
+      token: "<INSERT YOUR DATABRICKS PERSONAL ACCESS TOKEN HERE>"
+      type: databricks
+    prod:
+      catalog: dbt_learning_prod
+      host: dbc-da390f9a-8fc8.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/cd9c3d27e6f79760
+      schema: default
+      threads: 1
+      token: "<INSERT YOUR DATABRICKS PERSONAL ACCESS TOKEN HERE>"
+      type: databricks
+  target: dev
+
+
+# 🔑 Generate a Personal Access Token (PAT) from:
+# Databricks → User Settings → Developer → Access Tokens
